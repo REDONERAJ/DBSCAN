@@ -92,3 +92,6 @@ joblib
 ---
 
 ## 📷 Screenshot
+<img width="1366" height="655" alt="Screenshot 2025-08-12 074228" src="https://github.com/user-attachments/assets/0214341c-7506-4d11-a160-7775d7b03080" />
+<img width="1366" height="641" alt="Screenshot 2025-08-12 074257" src="https://github.com/user-attachments/assets/1233062b-f684-4dc8-a080-7f9207ee6510" />
+<img width="1366" height="647" alt="Screenshot 2025-08-12 074306" src="https://github.com/user-attachments/assets/db93db7b-3b16-45e5-8ede-7923908caa79" />
