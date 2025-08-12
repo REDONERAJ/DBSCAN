@@ -14,8 +14,6 @@ def index():
             values = [float(request.form[f]) for f in features]
             scaled_values = scaler.transform([values])
 
-            # DBSCAN does not support direct predict on new data.
-            # Assign cluster by nearest neighbor from training data
             distances = np.linalg.norm(X_train_scaled - scaled_values, axis=1)
             nearest_idx = distances.argmin()
             cluster = int(labels[nearest_idx])

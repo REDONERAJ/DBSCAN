@@ -1,11 +1,11 @@
-# 🔵 DBSCAN Clustering Web App – Concentric Circles Dataset
+# DBSCAN Clustering Web App – Concentric Circles Dataset
 
 This project is a **Flask-based web application** that demonstrates **Density-Based Spatial Clustering** (DBSCAN) on a **synthetic concentric circles dataset**.  
 It uses `make_circles` from scikit-learn to generate two rings of data points and applies DBSCAN to separate clusters of arbitrary shape — an area where traditional algorithms like K-Means fail.
 
 ---
 
-## 📊 Features
+## Features
 - Generates **synthetic concentric circles dataset** locally (no downloads needed).
 - Uses **DBSCAN** for density-based clustering, capable of detecting non-linear cluster shapes.
 - Identifies noise points in sparse areas.
@@ -13,7 +13,7 @@ It uses `make_circles` from scikit-learn to generate two rings of data points an
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 ├── model.py # Generates dataset, trains DBSCAN, saves model and data
 ├── app.py # Flask server for input & prediction
@@ -28,7 +28,7 @@ It uses `make_circles` from scikit-learn to generate two rings of data points an
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. **Clone this repository**
 git clone <your_repo_url>
@@ -57,7 +57,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 📝 Example Inputs for Testing
+##  Example Inputs for Testing
 | Example Type  | X1    | X2    | Expected Output          |
 |---------------|-------|-------|--------------------------|
 | Cluster 0     | 0.8   | 0.2   | Cluster 0 (outer circle) |
@@ -66,7 +66,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 📦 Requirements
+##  Requirements
 Flask
 scikit-learn
 pandas
@@ -76,7 +76,7 @@ joblib
 
 ---
 
-## 📚 How It Works
+##  How It Works
 1. `model.py` generates a **2D concentric circles dataset** using `make_circles`.
 2. Features are standardized with **StandardScaler**.
 3. **DBSCAN** is trained with `eps=0.3` and `min_samples=5`.
@@ -85,13 +85,13 @@ joblib
 
 ---
 
-## 🛠 Notes
+##  Notes
 - Adjust `eps` and `min_samples` in `model.py` to change DBSCAN cluster sensitivity.
 - Increasing noise in `make_circles` will produce more scattered points and may increase noise detection.
 
 ---
 
-## 📷 Screenshot
+##  Screenshot
 <img width="1366" height="655" alt="Screenshot 2025-08-12 074228" src="https://github.com/user-attachments/assets/0214341c-7506-4d11-a160-7775d7b03080" />
 <img width="1366" height="641" alt="Screenshot 2025-08-12 074257" src="https://github.com/user-attachments/assets/1233062b-f684-4dc8-a080-7f9207ee6510" />
 <img width="1366" height="647" alt="Screenshot 2025-08-12 074306" src="https://github.com/user-attachments/assets/db93db7b-3b16-45e5-8ede-7923908caa79" />
