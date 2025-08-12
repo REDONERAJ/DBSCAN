@@ -31,25 +31,25 @@ It uses `make_circles` from scikit-learn to generate two rings of data points an
 ## ⚙️ Installation
 
 1. **Clone this repository**
-```git clone <your_repo_url>
+git clone <your_repo_url>
 cd <project_folder>
-```
+
 
 
 2. **Install dependencies**
-```pip install -r requirements.txt
-```
+pip install -r requirements.txt
+
 
 
 3. **Train the model**
-```python model.py
-```
+python model.py
+
 
 
 4. **Run the Flask app**
-```python app.py
+python app.py
 
-```
+
 
 5. **Open in your browser**
 http://127.0.0.1:5000/
